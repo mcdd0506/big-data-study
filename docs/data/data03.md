@@ -106,12 +106,14 @@ java -version
 
 ````sh
 sudo tar -zxf ./hadoop-3.1.3.tar.gz -C ./dev/hadoop
+
+cd dev/hadoop
 ````
 
-将文件夹名改为hadoop
+移动文件到当前目录
 
 ```sh
-mv hadoop-3.1.3/ ./hadoop
+mv hadoop-3.1.3/* .
 ```
 
 ![image-20240829002418159](https://mcdd-dev-1311841992.cos.ap-beijing.myqcloud.com/assets/202408290024237.png)
@@ -119,6 +121,7 @@ mv hadoop-3.1.3/ ./hadoop
 配置权限 （直接 777 吧）
 
 ```sh
+cd ..
 sudo chmod 777 ./hadoop/
 ```
 
