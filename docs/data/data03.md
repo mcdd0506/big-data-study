@@ -116,16 +116,12 @@ cd dev/hadoop
 mv hadoop-3.1.3/* .
 ```
 
-![image-20240829002418159](https://mcdd-dev-1311841992.cos.ap-beijing.myqcloud.com/assets/202408290024237.png)
-
 配置权限 （直接 777 吧）
 
 ```sh
 cd ..
 sudo chmod 777 ./hadoop/
 ```
-
-![image-20240829002542279](https://mcdd-dev-1311841992.cos.ap-beijing.myqcloud.com/assets/202408290025345.png)
 
 将 Hadoop 加入到 PATH
 
